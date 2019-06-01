@@ -82,7 +82,8 @@ function moduleDecoratorFactory<S>(moduleOptions: ModuleOptions) {
       }
       modOpt.store.registerModule(
         modOpt.name, // TODO: Handle nested modules too in future
-        module
+        module,
+        { preserveState: modOpt.preserveState || false }
       )
     }
     return constructor
