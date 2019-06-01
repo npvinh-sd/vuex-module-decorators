@@ -10,7 +10,7 @@ coverage/
 node_modules/
 
 # Build
-/dist
+# /dist
 
 # Vuepress
 /docs/.vuepress/dist/
