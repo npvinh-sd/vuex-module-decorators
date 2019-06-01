@@ -41,6 +41,8 @@ export interface DynamicModuleOptions {
    * Whether to generate a plain state object, or a state factory for the module
    */
   stateFactory?: boolean
+  
+  preserveState?: true
 }
 
 export type ModuleOptions = StaticModuleOptions | DynamicModuleOptions
